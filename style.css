@@ -106,11 +106,21 @@ section{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .banner{
     background-image: url(images/shapes/shape-1.png);
-    background-position:left;
-    background-size: 350px;
+    background-position:left,top;
+    background-position-x:400 ;
+    background-size: 400px;
     background-repeat: no-repeat;
+}
+.banner-two{
+    background-image: url(images/shapes/shape-1.png);
+    background-position:right;
+    background-position-y: 180px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+
 }
 .final{
     
@@ -129,6 +139,5 @@ section{
 }
 .final-part{
     text-align: center;
-    color: blanchedalmond;
-    background-color: black;
+    color:blanchedalmond;
 }
